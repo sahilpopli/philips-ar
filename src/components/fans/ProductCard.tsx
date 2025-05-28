@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image'
-import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { generateProductUrl } from '@/lib/categoryUtils'
 
 interface Feature {
   icon: string
@@ -17,6 +17,7 @@ interface ProductCardProps {
   productImage: string
   backgroundImage?: string
   slug?: string
+  category?: string
 }
 
 export const ProductCard = ({
@@ -26,7 +27,8 @@ export const ProductCard = ({
   badgeImage,
   productImage,
   backgroundImage = '/home/fans-bg-upscaled.png',
-  slug
+  slug,
+  category
 }: ProductCardProps) => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -44,16 +46,16 @@ export const ProductCard = ({
     };
   }, []);
 
-  const productUrl = `/products/${slug || name.toLowerCase().replace(/\s+/g, '-')}`;
+  const productUrl = generateProductUrl(slug || name.toLowerCase().replace(/\s+/g, '-'), category);
 
-
-// Change: Need to darken the gradient for Features visibility 
-
-// Font and line heigh to be reduced for mobile version of product name 
+  // Handle card click for mobile (where there's no separate button)
+  const handleCardClick = () => {
+    window.location.href = productUrl;
+  };
 
   return (
-    <Link href={productUrl} className="block">
-      <div className="relative overflow-hidden rounded-xl group">
+    <div className="block">
+      <div className="relative overflow-hidden rounded-xl group cursor-pointer" onClick={isMobile ? handleCardClick : undefined}>
         {/* Background Image */}
         <div className="absolute inset-0 z-0 lg:scale-x-[2]">
           <Image
@@ -151,13 +153,9 @@ export const ProductCard = ({
                     />
                   </div>
                   
-                  {/* Arrow Link */}
-                  <Link 
-                    href={productUrl}
-                    className="inline-flex items-center justify-center w-8 h-8 
-                              rounded-full transition-colors"
-                    onClick={(e) => e.stopPropagation()}
-                  >
+                  {/* Arrow Icon */}
+                  <div className="inline-flex items-center justify-center w-8 h-8 
+                              rounded-full transition-colors">
                     <svg 
                       className="w-6 h-6 text-white transform rotate-[-30deg]" 
                       fill="none" 
@@ -171,7 +169,7 @@ export const ProductCard = ({
                         d="M14 5l7 7m0 0l-7 7m7-7H3" 
                       />
                     </svg>
-                  </Link>
+                  </div>
                 </div>
               </div>
             </>
@@ -193,13 +191,12 @@ export const ProductCard = ({
                   
                   {/* <p className="text-[#383838] text-sm mb-6">Lorem Ipsum Dolor Sit Amet</p> */}
                   
-                  <Link 
-                    href={productUrl}
-                    className="inline-block bg-[#50287A] hover:bg-[#3D1E5E] text-white py-2 px-6 rounded-md transition-all duration-300 w-fit"
-                    onClick={(e) => e.stopPropagation()}
+                  <button 
+                    onClick={() => window.location.href = productUrl}
+                    className="inline-block bg-[#50287A] hover:bg-[#3D1E5E] text-white py-2 px-6 rounded-md transition-all duration-300 w-fit cursor-pointer"
                   >
                     Learn More
-                  </Link>
+                  </button>
                 </div>
                 
                 {/* Product Image on the right */}
@@ -249,6 +246,6 @@ export const ProductCard = ({
           )}
         </div>
       </div>
-    </Link>
+    </div>
   )
 } 

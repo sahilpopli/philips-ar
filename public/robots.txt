@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow old product URLs to prevent duplicate content
+Disallow: /products/
+
+# Allow new category-based URLs
+Allow: /ceiling-fans/
+Allow: /smart-fans/
+Allow: /decorative-fans/
+Allow: /economy-fans/
+
+# Sitemap location
+Sitemap: https://fans.ecolinklighting.in/sitemap.xml 

@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
 import productsData from '@/lib/products';
+import { generateProductUrl } from '@/lib/categoryUtils';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.ecolink.in';
+  const baseUrl = 'https://fans.ecolinklighting.in';
   
   // Static routes
   const staticRoutes = [
@@ -32,10 +33,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ] as MetadataRoute.Sitemap;
 
-  // Dynamic product routes
+  // Dynamic product routes using new category-based URLs
   const productRoutes = productsData.products.map((product) => {
+    const productUrl = generateProductUrl(product.slug);
     return {
-      url: `${baseUrl}/products/${product.slug}`,
+      url: `${baseUrl}${productUrl}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,

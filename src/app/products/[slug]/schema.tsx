@@ -1,10 +1,10 @@
-import productsData from "@/lib/products";
+import productsData, { Product } from "@/lib/products";
+import { generateProductUrl } from "@/lib/categoryUtils";
 
 // This is a server component that will generate the schema for products
-export default async function ProductPageSchema({ params }: { params: { slug: string } }) {
-  // Correctly await the params if they might be a promise
-  const resolvedParams = params ? await Promise.resolve(params) : { slug: '' };
-  const { slug } = resolvedParams;
+export default async function ProductPageSchema({ params }: { params: Promise<{ slug: string }> }) {
+  // Correctly await the params in Next.js 15
+  const { slug } = await params;
   
   // Find the product data
   const product = productsData.products.find(p => p.slug === slug);
@@ -29,7 +29,7 @@ export default async function ProductPageSchema({ params }: { params: { slug: st
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Products",
-                "item": "https://fans.ecolinklighting.in/products"
+                "item": "https://fans.ecolinklighting.in/"
               }
             ]
           })
@@ -37,8 +37,26 @@ export default async function ProductPageSchema({ params }: { params: { slug: st
       />
     );
   }
+
+  // Determine the correct category for this product
+  const getProductCategory = (product: Product) => {
+    const productType = product.specifications?.type?.toLowerCase() || '';
+    
+    if (productType.includes('smart') || product.categories.includes('smart') || product.slug.includes('smart')) {
+      return 'smart-fans';
+    } else if (productType.includes('decorative') || product.fullName.toLowerCase().includes('decorative')) {
+      return 'decorative-fans';
+    } else if (productType.includes('economy') || product.fullName.toLowerCase().includes('vayupro') || product.fullName.toLowerCase().includes('vayuultra') || product.fullName.toLowerCase().includes('airofresh')) {
+      return 'economy-fans';
+    } else {
+      return 'ceiling-fans';
+    }
+  };
+
+  const category = getProductCategory(product);
+  const newProductUrl = generateProductUrl(slug, category);
   
-  // Create breadcrumb schema
+  // Create breadcrumb schema pointing to new URL structure
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -53,13 +71,13 @@ export default async function ProductPageSchema({ params }: { params: { slug: st
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://fans.ecolinklighting.in/products"
+        "item": "https://fans.ecolinklighting.in/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": product.fullName,
-        "item": `https://fans.ecolinklighting.in/products/${slug}`
+        "item": `https://fans.ecolinklighting.in${newProductUrl}`
       }
     ]
   };

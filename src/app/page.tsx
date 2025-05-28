@@ -1,16 +1,22 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { HeroSwiper } from "@/components/hero/HeroSwiper";
 import { DesktopHeroSwiper } from "@/components/hero/DesktopHeroSwiper";
 import { ProductCard } from "@/components/fans/ProductCard";
-import { FAQItem } from "@/components/FAQItem";
-import { useState, useEffect } from "react";
-import { HomeSchema } from "@/components/schema/HomeSchema";
-
-import { Footer } from "@/components/footer/Footer";
+import { DigiShieldSection } from "@/components/DigiShieldSection";
 import { WhyChooseSection } from "@/components/WhyChooseSection";
 import { CatalogSection } from "@/components/CatalogSection";
-import { DigiShieldSection } from "@/components/DigiShieldSection";
+import { Footer } from "@/components/footer/Footer";
+import { FAQItem } from "@/components/FAQItem";
+import { HomeSchema } from "@/components/schema/HomeSchema";
+import { 
+  bldcFans, 
+  smartbldcFans, 
+  decorativeFans, 
+  economyFansPro, 
+  economyFansHS 
+} from "@/lib/categoryUtils";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -51,7 +57,7 @@ export default function Home() {
       subheading: "",
       heading: "",
       buttonText: "",
-      buttonLink: "/products/airoquad",
+      buttonLink: "/ceiling-fans/airoquad",
       features: null,
     },{
       desktopBg: "/home/sliders/desktop/02.png",
@@ -59,7 +65,7 @@ export default function Home() {
       subheading: "",
       heading: "",
       buttonText: "",
-      buttonLink: "/products/airoelevate",
+      buttonLink: "/ceiling-fans/airoelevate",
       features: null,
     },{
       desktopBg: "/home/sliders/desktop/03.png",
@@ -67,7 +73,7 @@ export default function Home() {
       subheading: "",
       heading: "",
       buttonText: "",
-      buttonLink: "/products/airogeometry",
+      buttonLink: "/ceiling-fans/airogeometry",
       features: null,
     },{
       desktopBg: "/home/sliders/desktop/04.png",
@@ -75,7 +81,7 @@ export default function Home() {
       subheading: "",
       heading: "",
       buttonText: "",
-      buttonLink: "/products/airojewel",
+      buttonLink: "/ceiling-fans/airojewel",
       features: null,
     },
     {
@@ -154,100 +160,6 @@ export default function Home() {
     {
       icon: "/home/icons/double-ball-bearing.svg",
       text: "Double Ball Bearing",
-    },
-  ];
-
-
-  
-
-  const bldcFans = [
-    {
-      name: "EcoLink AiroElevate BLDC Ceiling Fan",
-      price: 8700,
-      image: "/home/product/AiroElevate.png?v=1",
-      slug: "airoelevate"
-    },
-    {
-      name: "EcoLink AiroQuad BLDC Ceiling Fan",
-      price: 7400,
-      image: "/home/product/AiroQuad.png",
-      slug: "airoquad"
-    },
-    {
-      name: "EcoLink AiroJewel BLDC Ceiling Fan",
-      price: 6550,
-      image: "/home/product/AiroJewel.png?v=1",
-      slug: "airojewel"
-    },
-    {
-      name: "EcoLink AiroGeometry BLDC Ceiling Fan",
-      price: 5850,
-      image: "/home/product/AiroGeometry.png?v=1",
-      slug: "airogeometry"
-    },
-    {
-      name: "EcoLink Stardust BLDC Ceiling Fan",
-      price: 6499,
-      image: "/home/product/StarDust.png",
-      slug: "stardustbldc"
-    },
-   
-  ];
-
-  const smartbldcFans = [
-   
-    {
-      name: "EcoLink AiroJewel BLDC Smart Ceiling Fan",
-      price: 6950,
-      image: "/home/product/AiroJewel.png?v=1",
-      slug: "airojewelsmart"
-    },
-    {
-      name: "EcoLink AiroGeometry BLDC Smart Ceiling Fan",
-      price: 5850,
-      image: "/home/product/AiroGeometry.png?v=1",
-      slug: "airogeometrysmart"
-    },
-  ];
-
-  const decorativeFans = [
-    {
-      name: "EcoLink AiroZephyr Ceiling Fan",
-      price: 4395,
-      image: "/home/product/AiroZephyr.png",
-      slug: "airozephyr"
-    },
-    {
-      name: "EcoLink AiroSerenade Ceiling Fan",
-      price: 4395,
-      image: "/home/product/AiroSerenada.png",
-      slug: "airoserenade"
-    },
-    {
-      name: "EcoLink AiroSleek Ceiling Fan",
-      price: 4395,
-      image: "/home/product/AiroSleek.png",
-      slug: "airosleek"
-    }
-    
-  ];
-
-  const economyFansPro = [
-    {
-      name: "EcoLink VayuPro High Speed Ceiling Fan",
-      price: 2350,
-      image: "/home/product/vayuprofan.png",
-      slug: "vayuprohs"
-    }
-  ];
-
-  const economyFansHS = [
-    
-    {
-      name: "EcoLink VayuUltra Ceiling Fan",
-      price: 2350,
-      image: "/home/product/VayuUltra.png",
-      slug: "vayuultra"
     },
   ];
 
@@ -429,6 +341,7 @@ export default function Home() {
                 badgeImage="/home/icons/badge.svg"
                 productImage={fan.image}
                 slug={fan.slug}
+                category={fan.category}
               />
             ))}
           </div>
@@ -449,6 +362,7 @@ export default function Home() {
                 badgeImage="/home/icons/badge.svg"
                 productImage={fan.image}
                 slug={fan.slug}
+                category={fan.category}
               />
             ))}
           </div>
@@ -469,6 +383,7 @@ export default function Home() {
                 badgeImage="/home/icons/1-star-badge.svg"
                 productImage={fan.image}
                 slug={fan.slug}
+                category={fan.category}
               />
             ))}
           </div>
@@ -488,6 +403,7 @@ export default function Home() {
                 badgeImage="/home/icons/1-star-badge.svg"
                 productImage={fan.image}
                 slug={fan.slug}
+                category={fan.category}
               />
             ))}
             {economyFansPro.map((fan, index) => (
@@ -499,6 +415,7 @@ export default function Home() {
                 badgeImage="/home/icons/1-star-badge.svg"
                 productImage={fan.image}
                 slug={fan.slug}
+                category={fan.category}
               />
             ))}
           </div>

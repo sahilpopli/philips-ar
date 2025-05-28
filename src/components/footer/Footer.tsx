@@ -99,42 +99,36 @@ export function Footer() {
           <div className="md:col-span-5 md:col-start-8 md:col-end-13 order-2 md:order-3">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full text-center md:text-left">
               <div>
-                <h4 className="font-medium mb-3">BLDC Ceiling Fans</h4>
-                <ul className="space-y-1 text-sm">
-                <li><Link href="/products/airoelevate" className="hover:underline">AiroElevate</Link></li>
-                  <li><Link href="/products/airoquad" className="hover:underline">AiroQuad</Link></li>
-                  <li><Link href="/products/airojewel" className="hover:underline">AiroJewel</Link></li>
-                  <li><Link href="/products/airogeometry" className="hover:underline">AiroGeometry</Link></li>
-                  <li><Link href="/products/stardustbldc" className="hover:underline">Stardust</Link></li>
+                <h4 className="text-lg font-semibold mb-3">BLDC Ceiling Fans</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/ceiling-fans/airoelevate" className="hover:underline">AiroElevate</Link></li>
+                  <li><Link href="/ceiling-fans/airoquad" className="hover:underline">AiroQuad</Link></li>
+                  <li><Link href="/ceiling-fans/airojewel" className="hover:underline">AiroJewel</Link></li>
+                  <li><Link href="/ceiling-fans/airogeometry" className="hover:underline">AiroGeometry</Link></li>
+                  <li><Link href="/ceiling-fans/stardustbldc" className="hover:underline">Stardust</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium mb-3">Smart Ceiling Fans</h4>
-                <ul className="space-y-1 text-sm">
-                  <li><Link href="/products/airojewelsmart" className="hover:underline">AiroJewel Smart</Link></li>
-                  <li><Link href="/products/airogeometrysmart" className="hover:underline">AiroGeometry Smart</Link></li>
+                <h4 className="text-lg font-semibold mb-3">Smart Fans</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/smart-fans/airojewelsmart" className="hover:underline">AiroJewel Smart</Link></li>
+                  <li><Link href="/smart-fans/airogeometrysmart" className="hover:underline">AiroGeometry Smart</Link></li>
                 </ul>
               </div>
               
               <div>
-                <h4 className="font-medium mb-3">Decorative Fans</h4>
-                <ul className="space-y-1 text-sm">
-                
-                  <li><Link href="/products/airozephyr" className="hover:underline">AiroZephyr</Link></li>
-                  <li><Link href="/products/airoserenade" className="hover:underline">AiroSerenade</Link></li>
-                  <li><Link href="/products/airosleek" className="hover:underline">AiroSleek</Link></li>
-                  
-                  
+                <h4 className="text-lg font-semibold mb-3">Decorative Fans</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/decorative-fans/airozephyr" className="hover:underline">AiroZephyr</Link></li>
+                  <li><Link href="/decorative-fans/airoserenade" className="hover:underline">AiroSerenade</Link></li>
+                  <li><Link href="/decorative-fans/airosleek" className="hover:underline">AiroSleek</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium mb-3">Economy Fans</h4>
-                <ul className="space-y-1 text-sm">
-                
-                
-                  
-                  <li><Link href="/products/vayuprohs" className="hover:underline">VayuPro</Link></li>
-                  <li><Link href="/products/vayuultra" className="hover:underline">VayuUltra</Link></li>
+                <h4 className="text-lg font-semibold mb-3">Economy Fans</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><Link href="/economy-fans/vayuprohs" className="hover:underline">VayuPro</Link></li>
+                  <li><Link href="/economy-fans/vayuultra" className="hover:underline">VayuUltra</Link></li>
                 </ul>
               </div>
             </div>

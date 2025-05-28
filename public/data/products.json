@@ -2315,6 +2315,11 @@
       "id": "economy",
       "name": "Economy Range",
       "description": "Affordable fans without compromising on quality"
+    },
+    {
+      "id": "smart",
+      "name": "Smart Fans",
+      "description": "App-controlled fans with smart home integration"
     }
   ],
   "featureIcons": {
