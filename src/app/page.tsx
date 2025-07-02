@@ -197,7 +197,7 @@ export default function Home() {
       title: "UP TO 50% ENERGY SAVING WITH BLDC MOTOR",
     },
   ];
-
+ 
   const faqs = [
     {
       "question": "Q1: What types of fans are available?",
