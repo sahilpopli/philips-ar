@@ -24,7 +24,7 @@ export const bldcFans = [
   },
   {
     name: "EcoLink AiroJewel BLDC Ceiling Fan",
-    price: 6550,
+    price: 5850,
     image: "/home/product/AiroJewel.png?v=1",
     slug: "airojewel",
     category: "ceiling-fans"
@@ -55,7 +55,7 @@ export const smartbldcFans = [
   },
   {
     name: "EcoLink AiroGeometry BLDC Smart Ceiling Fan",
-    price: 5850,
+    price: 6950,
     image: "/home/product/AiroGeometry.png?v=1",
     slug: "airogeometrysmart",
     category: "smart-fans"

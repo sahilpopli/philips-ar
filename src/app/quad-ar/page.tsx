@@ -323,7 +323,7 @@ export default function SimpleAR() {
       const loader = new GLTFLoader();
       
       // Simple direct path without environment checks or fallbacks
-      const modelPath = '/models/airo-quad.glb';
+      const modelPath = '/models/resend-airo-quad.glb';
       console.log('🔍 Loading model from path:', modelPath);
       
       loader.load(
