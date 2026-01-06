@@ -136,7 +136,7 @@ export function Footer() {
         </div>
       </div>
       <div className="py-4 text-center border-t border-white/20">
-        <p className="text-sm">© 2018-2025 Signify Holding. All rights reserved.</p>
+        <p className="text-sm">© 2018-2026 Signify Holding. All rights reserved.</p>
       </div>
     </footer>
   );
