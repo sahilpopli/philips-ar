@@ -83,15 +83,6 @@ export default function Home() {
       buttonText: "",
       buttonLink: "/ceiling-fans/airojewel",
       features: null,
-    },
-    {
-      desktopBg: "/home/sliders/desktop/ipl-desktop.png?v=1",
-      mobileBg: "/home/sliders/mobile/ipl-mobile.png",
-      subheading: "",
-      heading: "",
-      buttonText: "",
-      buttonLink: "#products",
-      features: null,
     }
   ];
 
