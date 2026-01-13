@@ -43,6 +43,20 @@ export const bldcFans = [
     slug: "stardustbldc",
     category: "ceiling-fans"
   },
+  {
+    name: "EcoLink AiroTrio BLDC Ceiling Fan",
+    price: 7400,
+    image: "/home/product/airotrio.png",
+    slug: "airotrio",
+    category: "ceiling-fans"
+  },
+  {
+    name: "EcoLink AiroQuad 3B BLDC Ceiling Fan",
+    price: 7400,
+    image: "/home/product/airoquad3b.png",
+    slug: "airoquad3b",
+    category: "ceiling-fans"
+  },
 ];
 
 export const smartbldcFans = [

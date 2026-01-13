@@ -52,36 +52,36 @@ export default function Home() {
 
   const heroSlides = [
     {
-      desktopBg: "/home/sliders/desktop/01.png",
-      mobileBg: "/home/sliders/mobile/01.png?v=1",
-      subheading: "",
-      heading: "",
-      buttonText: "",
-      buttonLink: "/ceiling-fans/airoquad",
-      features: null,
-    },{
-      desktopBg: "/home/sliders/desktop/02.png",
-      mobileBg: "/home/sliders/mobile/02.png?v=4",
+      desktopBg: "/home/sliders/desktop/1.png",
+      mobileBg: "/home/sliders/mobile/1.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",
       buttonLink: "/ceiling-fans/airoelevate",
       features: null,
     },{
-      desktopBg: "/home/sliders/desktop/03.png",
-      mobileBg: "/home/sliders/mobile/03.png?v=1",
+      desktopBg: "/home/sliders/desktop/2.png",
+      mobileBg: "/home/sliders/mobile/2.png?v=4",
+      subheading: "",
+      heading: "",
+      buttonText: "",
+      buttonLink: "/ceiling-fans/airojewel",
+      features: null,
+    },{
+      desktopBg: "/home/sliders/desktop/3.png",
+      mobileBg: "/home/sliders/mobile/3.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",
       buttonLink: "/ceiling-fans/airogeometry",
       features: null,
     },{
-      desktopBg: "/home/sliders/desktop/04.png",
-      mobileBg: "/home/sliders/mobile/04.png?v=1",
+      desktopBg: "/home/sliders/desktop/4.png",
+      mobileBg: "/home/sliders/mobile/4.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",
-      buttonLink: "/ceiling-fans/airojewel",
+      buttonLink: "/ceiling-fans/airoquad",
       features: null,
     }
   ];

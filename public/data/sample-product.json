@@ -1,0 +1,148 @@
+{
+    "id": "stardustbldc",
+    "slug": "stardustbldc",
+    "modelName": "Stardust BLDC",
+    "fullName": "EcoLink Stardust BLDC Ceiling Fan",
+    "tagline": "",
+    "description": "",
+    "price": 6499,
+    "starRating": 5,
+    "warranty": {
+      "standard": 3,
+      "extended": 2,
+      "note": "Get 2 years extended warranty with 3 years standard warranty on EcoLink BLDC Ceiling fan. To activate extended warranty, register product on Signify DigiShield App"
+    },
+    "specifications": {
+      "sweepSize": "1200 mm",
+      "power": "32 W",
+      "speed": "350 RPM",
+      "airDelivery": "210 CMM",
+      "dimensions": "xx mm X yy mm X zz mm (length X width X height)",
+      "type": "BLDC Ceiling fan",
+      "brand": "EcoLink"
+    },
+    "colors": [
+      {
+        "name": "Cinnamon Brown",
+        "primary": "#3A3A5B",
+        "secondary": "#CCCCCC",
+        "gradientFrom": "#FFFFFF",
+        "gradientTo": "#DDDDDD"
+      },
+      {
+        "name": "Pearl White",
+        "primary": "#FFFFFF",
+        "secondary": "#CCCCCC",
+        "gradientFrom": "#FFFFFF",
+        "gradientTo": "#DDDDDD"
+      },
+      {
+        "name": "Rose Gold",
+        "primary": "#FF6B6B",
+        "secondary": "#CCCCCC",
+        "gradientFrom": "#FFFFFF",
+        "gradientTo": "#DDDDDD"
+      }
+    ],
+    "sizes": [
+      {
+        "label": "1200mm",
+        "value": "1200"
+      }
+    ],
+    "keyFeature": "",
+    "features": [
+      {
+        "title": "BLDC Technology",
+        "description": "",
+        "icon": "/home/icons/feature1.svg"
+      },
+      {
+        "title": "Runs 3x longer on inverter",
+        "description": "",
+        "icon": "/home/icons/feature2.svg"
+      },
+      {
+        "title": "Point anywhere RF remote",
+        "description": "",
+        "icon": "/home/icons/feature3.svg"
+      },
+      {
+        "title": "Decorative trims and ring",
+        "description": "",
+        "icon": "/home/icons/feature4.svg"
+      },
+      {
+        "title": "2 way rotation for Summers and Winters",
+        "description": "",
+        "icon": "/home/icons/feature5.svg"
+      },
+      {
+        "title": "100% copper motor",
+        "description": "",
+        "icon": "/home/icons/feature6.svg"
+      },
+      {
+        "title": "Aluminium blades",
+        "description": "",
+        "icon": "/home/icons/feature7.svg"
+      }
+    ],
+    "seasonalFeatures": {
+      "summer": {
+        "title": "Summer Mode",
+        "description": "Counter-clockwise rotation pushes air down for a cooling effect",
+        "image": "/home/stardust-summer.png"
+      },
+      "winter": {
+        "title": "Winter Mode",
+        "description": "Clockwise rotation pulls cold air up and pushes warm air down without causing a draft",
+        "image": "/home/stardust-winter.png"
+      }
+    },
+    "energyEfficiency": {
+      "title": "Runs 3x longer on inverter",
+      "annualSavings": 1500,
+      "description": "EcoLink Stardust BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
+      "icon": "/home/icons/inverter-energy.svg"
+    },
+    "ledFeature": {},
+    "remoteFeatures": {
+      "type": "RF Remote",
+      "range": "No line of sight required",
+      "functions": [
+        "Power On/Off",
+        "Speed Control (6 speeds)",
+        "Turbo Mode",
+        "Timer (2, 4, 6 hours)",
+        "Summer/Winter Mode (Direction Control)"
+      ],
+      "image": "/home/dark-remote-feat.png",
+      "lightModeImage": "/home/light-remote-feat.png",
+      "title": "Convenient Control at your fingertips!",
+      "description": "Effortlessly control your comfort with a Point Anywhere RF remote for ultimate convenience"
+    },
+    "images": {
+      "main": "/home/product/StarDust.png",
+      "gallery": [
+      "/sliders/stardust/1.jpg",
+       "/sliders/stardust/2.png",
+       "/sliders/stardust/3.png"
+      ],
+      "arModel": "/models/fan-3d.glb"
+    },
+    "videos": {
+      "promotional": "https://youtu.be/_-lJf3g3kDQ",
+      "thumbnail": "/home/video-card-bg.png"
+    },
+    "aesthetics": {
+      "title": "",
+      "description": "",
+      "highlightPoints": []
+    },
+    "categories": [
+      "bldc",
+      "premium",
+      "featured"
+    ]
+  }

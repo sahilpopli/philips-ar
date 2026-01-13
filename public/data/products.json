@@ -44,6 +44,12 @@
           "/sliders/airoelevate/Silk White - Rose Gold/Artboard 6.png",
           "/sliders/airoelevate/Silk White - Rose Gold/Artboard 7.png",
           "/sliders/airoelevate/Silk White - Rose Gold/Artboard 8.png"
+        ],
+        "Vanila - Beige Gold":[
+          "/sliders/airoelevate/Vanila – Beige Gold/1.png"
+        ],
+        "Phantom Black":[
+          "/sliders/airoelevate/Phantom Black/1.png?v=3"
         ]
       },
       "colors": [
@@ -57,6 +63,20 @@
         {
           "name": "Silk White - Rose Gold",
           "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Vanila – Beige Gold",
+          "primary": "#F5F5F5",
+          "secondary": "#CCCCCC", 
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Phantom Black",
+          "primary": "#000000",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -216,12 +236,18 @@
           "/sliders/aeroquad/Titanium Grey/Artboard 7.png",
           "/sliders/aeroquad/Titanium Grey/Artboard 8.png",
           "/sliders/aeroquad/Titanium Grey/Artboard 9.png"
+        ],
+        "Pearl white": [
+          "/sliders/aeroquad/Pearl white/1.png"
+        ],
+        "Phantom Black": [
+          "/sliders/aeroquad/Phantom Black/1.png?v=3"
         ]
       },
       "colors": [
         {
           "name": "Galactic Silver",
-          "primary": "#FFFFFF",
+          "primary": "#CCCCCC", 
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -236,6 +262,20 @@
         {
           "name": "Titanium Grey",
           "primary": "#3A3A5B",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Pearl white",
+          "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+         {
+          "name": "Phantom Black",
+          "primary": "#000000",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -420,6 +460,22 @@
           "/sliders/airogeometry/Dark Coffee Brown/3.jpg",
           "/sliders/airogeometry/Dark Coffee Brown/4.jpg",
           "/sliders/airogeometry/Dark Coffee Brown/5.jpg"
+        ],
+        "Pearl white": [
+          "/sliders/airogeometry/Pearl white/1.png"
+          
+        ],
+        "Ice Blue": [
+          "/sliders/airogeometry/Ice Blue/1.jpg"
+        ],
+        "Satin Gold": [
+          "/sliders/airogeometry/Satin Gold/1.jpg"
+        ],
+        "Cherrywood": [
+          "/sliders/airogeometry/Cherrywood/1.jpg",
+          "/sliders/airogeometry/Cherrywood/2.jpg"
+
+
         ]
         
       },
@@ -442,6 +498,34 @@
         {
           "name": "Dark Coffee",
           "primary": "#6F4E37",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Pearl white",
+          "primary": "#FFFFE0",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Ice Blue",
+            "primary": "#E0FFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Satin Gold",
+          "primary": "#FFD700",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Cherrywood",
+            "primary": "#8B4513",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -618,6 +702,14 @@
         "Smoke Mocha Brown": [
         
           "/sliders/airojewel/Mocha Brown/1.jpg"
+        ],
+        "Cherrywood": [
+          "/sliders/airojewel/Cherrywood/1.png",
+          "/sliders/airojewel/Cherrywood/2.png"
+
+        ],
+        "Midnight Blue": [
+          "/sliders/airojewel/Midnight Blue/1.png"
         ]
 
 
@@ -641,6 +733,20 @@
         {
           "name": "Smoke Mocha Brown",
           "primary": "#573f16",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Cherrywood",
+          "primary": "#8B4513",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Midnight Blue",
+          "primary": "#000080",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -1031,13 +1137,17 @@
           "/sliders/airogeometry/Dark Coffee Brown/3.jpg",
           "/sliders/airogeometry/Dark Coffee Brown/4.jpg",
           "/sliders/airogeometry/Dark Coffee Brown/5.jpg"
+        ],
+        "Pearl white": [
+          "/sliders/airogeometry/Pearl white/1.jpg",
+          "/sliders/airogeometry/Pearl white/2.jpg"
         ]
         
       },
       "colors": [
         {
           "name": "Silver Mist",
-          "primary": "#FFFFFF",
+          "primary": "#CCCCCC",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -1052,6 +1162,13 @@
         {
           "name": "Dark Coffee",
           "primary": "#6F4E37",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Pearl white",
+          "primary": "#FFFFFF",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -1176,14 +1293,15 @@
       ]
     },
     {
-      "id": "stardustbldc",
-      "slug": "stardustbldc",
-      "modelName": "Stardust BLDC",
-      "fullName": "EcoLink Stardust BLDC Ceiling Fan",
+      "id": "airoquad3b",
+      "slug": "airoquad3b",
+      "modelName": "AiroQuad 3B",
+      "fullName": "EcoLink AiroQuad 3B BLDC Ceiling Fan",
       "tagline": "",
-      "description": "",
-      "price": 6499,
+      "description": "Innovative design with 3 sleek blades for efficient cooling and modern elegance",
+      "price": 7400,
       "starRating": 5,
+      "arLink": "",
       "warranty": {
         "standard": 3,
         "extended": 2,
@@ -1191,31 +1309,57 @@
       },
       "specifications": {
         "sweepSize": "1200 mm",
-        "power": "32 W",
-        "speed": "350 RPM",
-        "airDelivery": "210 CMM",
+        "power": "35 W",
+        "speed": "370 RPM",
+        "airDelivery": "230 CMM",
         "dimensions": "xx mm X yy mm X zz mm (length X width X height)",
         "type": "BLDC Ceiling fan",
         "brand": "EcoLink"
       },
+      "sliderImages": {
+        
+        "Titanium Grey": [
+          "/sliders/airoquad3b/1.png",
+          "/sliders/airoquad3b/2.png",
+          "/sliders/airoquad3b/3.png"
+        ],
+        "Pearl white": [
+          "/sliders/airoquad3b/4.png"
+        ],
+        "Espresso Brown": [
+          "/sliders/airoquad3b/5.png"
+        ],
+        "Satin Gold": [
+          "/sliders/airoquad3b/6.png"
+        ]
+        
+      },
       "colors": [
+       
         {
-          "name": "Cinnamon Brown",
+          "name": "Titanium Grey",
           "primary": "#3A3A5B",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
         },
         {
-          "name": "Pearl White",
+          "name": "Pearl white",
           "primary": "#FFFFFF",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
         },
+         {
+          "name": "Espresso Brown",
+          "primary": "#593C26",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
         {
-          "name": "Rose Gold",
-          "primary": "#FF6B6B",
+          "name": "Satin Gold",
+          "primary": "#FFD700",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -1227,7 +1371,7 @@
           "value": "1200"
         }
       ],
-      "keyFeature": "",
+      "keyFeature": "Unique Square hub design",
       "features": [
         {
           "title": "BLDC Technology",
@@ -1240,12 +1384,12 @@
           "icon": "/home/icons/feature2.svg"
         },
         {
-          "title": "Point anywhere RF remote",
+          "title": "Ceiling adjustable mounting \nMaintains design aesthetic",
           "description": "",
           "icon": "/home/icons/feature3.svg"
         },
         {
-          "title": "Decorative trims and ring",
+          "title": "Designer LED speed indicators*",
           "description": "",
           "icon": "/home/icons/feature4.svg"
         },
@@ -1255,35 +1399,49 @@
           "icon": "/home/icons/feature5.svg"
         },
         {
-          "title": "100% copper motor",
+          "title": "Point anywhere RF remote",
           "description": "",
           "icon": "/home/icons/feature6.svg"
         },
         {
-          "title": "Aluminium blades",
+          "title": "Superior air delivery",
           "description": "",
           "icon": "/home/icons/feature7.svg"
+        },
+        {
+          "title": "100% copper motor",
+          "description": "",
+          "icon": "/home/icons/feature8.svg"
+        },
+        {
+          "title": "Turbo mode, Timer (2,4,6 hours)",
+          "description": "",
+          "icon": "/home/icons/feature9.svg"
         }
       ],
       "seasonalFeatures": {
         "summer": {
           "title": "Summer Mode",
           "description": "Counter-clockwise rotation pushes air down for a cooling effect",
-          "image": "/home/stardust-summer.png"
+          "image": "/home/quad-summer.png"
         },
         "winter": {
           "title": "Winter Mode",
           "description": "Clockwise rotation pulls cold air up and pushes warm air down without causing a draft",
-          "image": "/home/stardust-winter.png"
+          "image": "/home/quad-winter.png"
         }
       },
       "energyEfficiency": {
         "title": "Runs 3x longer on inverter",
         "annualSavings": 1500,
-        "description": "EcoLink Stardust BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
+        "description": "EcoLink AiroQuad BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
         "icon": "/home/icons/inverter-energy.svg"
       },
-      "ledFeature": {},
+      "ledFeature": {
+        "title": "Designer LED speed indicator",
+        "description": "Stylish ceiling fan featuring a designer LED speed indicator for a modern touch and enhanced functionality",
+        "image": "/home/product/airoquad3b.png"
+      },
       "remoteFeatures": {
         "type": "RF Remote",
         "range": "No line of sight required",
@@ -1300,11 +1458,11 @@
         "description": "Effortlessly control your comfort with a Point Anywhere RF remote for ultimate convenience"
       },
       "images": {
-        "main": "/home/product/StarDust.png",
+        "main": "/home/product/airoquad3b.png",
         "gallery": [
-        "/sliders/stardust/1.jpg",
-         "/sliders/stardust/2.png",
-         "/sliders/stardust/3.png"
+          "/home/product/demo/1.png",
+          "/home/product/demo/2.jpg",
+          "/home/product/demo/3.jpg"
         ],
         "arModel": "/models/fan-3d.glb"
       },
@@ -1313,8 +1471,8 @@
         "thumbnail": "/home/video-card-bg.png"
       },
       "aesthetics": {
-        "title": "",
-        "description": "",
+        "title": "Hassle free installation",
+        "description": "EcoLink AiroQuad BLDC ceiling fan features adjustable mounting, making it suitable for any ceiling type in your home",
         "highlightPoints": []
       },
       "categories": [
@@ -1323,6 +1481,217 @@
         "featured"
       ]
     },
+
+    {
+      "id": "airotrio",
+      "slug": "airotrio",
+      "modelName": "AiroTrio",
+      "fullName": "EcoLink AiroTrio BLDC Ceiling Fan",
+      "tagline": "",
+      "description": "Innovative design with 3 sleek blades for efficient cooling and modern elegance",
+      "price": 7400,
+      "starRating": 5,
+      "arLink": "",
+      "warranty": {
+        "standard": 3,
+        "extended": 2,
+        "note": "Get 2 years extended warranty with 3 years standard warranty on EcoLink BLDC Ceiling fan. To activate extended warranty, register product on Signify DigiShield App"
+      },
+      "specifications": {
+        "sweepSize": "1200 mm",
+        "power": "36 W",
+        "speed": "370 RPM",
+        "airDelivery": "240 CMM",
+        "dimensions": "xx mm X yy mm X zz mm (length X width X height)",
+        "type": "BLDC Ceiling fan",
+        "brand": "EcoLink"
+      },
+      "sliderImages": {
+        "Graphite Wood": [
+          "/sliders/airotrio/1.png",
+          "/sliders/airotrio/2.png"
+         
+        ],
+        "Titanium Grey": [
+          "/sliders/airotrio/6.png"
+         
+        ],
+        "Pearl white": [
+          "/sliders/airoquad3b/4.png"
+        ],
+        "Phantom Black": [
+          "/sliders/airotrio/3.png"
+        ],
+        "Midnight Blue": [
+          "/sliders/airotrio/7.png"
+        ],
+        "Walnut Wood": [
+          "/sliders/airotrio/5.png"
+        ]
+        
+      },
+      "colors": [
+        {
+          "name": "Graphite Wood",
+          "primary": "#3A3A5B",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Titanium Grey",
+          "primary": "#3A3A5B",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Pearl white",
+          "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Phantom Black",
+          "primary": "#000000",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Midnight Blue",
+          "primary": "#000080",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Walnut Wood",
+          "primary": "#8B4513",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        }
+       
+      ],
+      "sizes": [
+        {
+          "label": "1200mm",
+          "value": "1200"
+        }
+      ],
+      "keyFeature": "Unique Square hub design",
+      "features": [
+        {
+          "title": "BLDC Technology",
+          "description": "",
+          "icon": "/home/icons/feature1.svg"
+        },
+        {
+          "title": "Runs 3x longer on inverter",
+          "description": "",
+          "icon": "/home/icons/feature2.svg"
+        },
+        {
+          "title": "Ceiling adjustable mounting \nMaintains design aesthetic",
+          "description": "",
+          "icon": "/home/icons/feature3.svg"
+        },
+        {
+          "title": "Designer LED speed indicators*",
+          "description": "",
+          "icon": "/home/icons/feature4.svg"
+        },
+        {
+          "title": "2 way rotation for Summers and Winters",
+          "description": "",
+          "icon": "/home/icons/feature5.svg"
+        },
+        {
+          "title": "Point anywhere RF remote",
+          "description": "",
+          "icon": "/home/icons/feature6.svg"
+        },
+        {
+          "title": "Superior air delivery",
+          "description": "",
+          "icon": "/home/icons/feature7.svg"
+        },
+        {
+          "title": "100% copper motor",
+          "description": "",
+          "icon": "/home/icons/feature8.svg"
+        },
+        {
+          "title": "Turbo mode, Timer (2,4,6 hours)",
+          "description": "",
+          "icon": "/home/icons/feature9.svg"
+        }
+      ],
+      "seasonalFeatures": {
+        "summer": {
+          "title": "Summer Mode",
+          "description": "Counter-clockwise rotation pushes air down for a cooling effect",
+          "image": "/home/quad-summer.png"
+        },
+        "winter": {
+          "title": "Winter Mode",
+          "description": "Clockwise rotation pulls cold air up and pushes warm air down without causing a draft",
+          "image": "/home/quad-winter.png"
+        }
+      },
+      "energyEfficiency": {
+        "title": "Runs 3x longer on inverter",
+        "annualSavings": 1500,
+        "description": "EcoLink AiroTrio BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
+        "icon": "/home/icons/inverter-energy.svg"
+      },
+      "ledFeature": {
+        "title": "Designer LED speed indicator",
+        "description": "Stylish ceiling fan featuring a designer LED speed indicator for a modern touch and enhanced functionality",
+        "image": "/home/product/airotrio.png"
+      },
+      "remoteFeatures": {
+        "type": "RF Remote",
+        "range": "No line of sight required",
+        "functions": [
+          "Power On/Off",
+          "Speed Control (6 speeds)",
+          "Turbo Mode",
+          "Timer (2, 4, 6 hours)",
+          "Summer/Winter Mode (Direction Control)"
+        ],
+        "image": "/home/dark-remote-feat.png",
+        "lightModeImage": "/home/light-remote-feat.png",
+        "title": "Convenient Control at your fingertips!",
+        "description": "Effortlessly control your comfort with a Point Anywhere RF remote for ultimate convenience"
+      },
+      "images": {
+        "main": "/home/product/airotrio.png",
+        "gallery": [
+          "/home/product/demo/1.png",
+          "/home/product/demo/2.jpg",
+          "/home/product/demo/3.jpg"
+        ],
+        "arModel": "/models/fan-3d.glb"
+      },
+      "videos": {
+        "promotional": "https://youtu.be/_-lJf3g3kDQ",
+        "thumbnail": "/home/video-card-bg.png"
+      },
+      "aesthetics": {
+        "title": "Hassle free installation",
+        "description": "EcoLink AiroTrio BLDC ceiling fan features adjustable mounting, making it suitable for any ceiling type in your home",
+        "highlightPoints": []
+      },
+      "categories": [
+        "bldc",
+        "premium",
+        "featured"
+      ]
+    },
+   
     {
       "id": "airozephyr",
       "slug": "airozephyr",
@@ -1745,6 +2114,10 @@
           "/sliders/airosleek/6.jpg",
           "/sliders/airosleek/7.jpg",
           "/sliders/airosleek/8.jpg"
+        ],
+        "Silver mist": [
+          "/sliders/airosleek/sm-1.png"
+          
         ]
       },
       "colors": [
@@ -1759,6 +2132,12 @@
         {
           "name": "Milky White",
           "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },  {
+          "name": "Silver mist",
+          "primary": "#CCCCCC",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
