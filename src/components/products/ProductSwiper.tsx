@@ -101,6 +101,7 @@ export const ProductSwiper = ({ images, slug, selectedColor, productData }: Prod
               <Image
                 src={image}
                 alt={`Product image ${index + 1}`}
+                quality={100}
                 fill
                 className="object-contain w-full aspect-square"
                 onError={(e) => {

@@ -17,6 +17,7 @@ import {
   economyFansPro, 
   economyFansHS 
 } from "@/lib/categoryUtils";
+import { YouTubeVideoCard } from "@/components/product/YouTubeVideoCard";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -52,7 +53,7 @@ export default function Home() {
 
   const heroSlides = [
     {
-      desktopBg: "/home/sliders/desktop/1.png",
+      desktopBg: "/home/sliders/desktop/1.png?v=2",
       mobileBg: "/home/sliders/mobile/1.png?v=1",
       subheading: "",
       heading: "",
@@ -60,23 +61,23 @@ export default function Home() {
       buttonLink: "/ceiling-fans/airoelevate",
       features: null,
     },{
-      desktopBg: "/home/sliders/desktop/2.png",
-      mobileBg: "/home/sliders/mobile/2.png?v=4",
+      desktopBg: "/home/sliders/desktop/04.png",
+      mobileBg: "/home/sliders/mobile/04.png?v=4",
       subheading: "",
       heading: "",
       buttonText: "",
       buttonLink: "/ceiling-fans/airojewel",
       features: null,
     },{
-      desktopBg: "/home/sliders/desktop/3.png",
-      mobileBg: "/home/sliders/mobile/3.png?v=1",
+      desktopBg: "/home/sliders/desktop/03.png",
+      mobileBg: "/home/sliders/mobile/03.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",
       buttonLink: "/ceiling-fans/airogeometry",
       features: null,
     },{
-      desktopBg: "/home/sliders/desktop/4.png",
+      desktopBg: "/home/sliders/desktop/4.png?v=1",
       mobileBg: "/home/sliders/mobile/4.png?v=1",
       subheading: "",
       heading: "",
@@ -411,6 +412,14 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        <div className="py-10 container mx-auto px-4 ">
+              <YouTubeVideoCard
+                videoSrc="https://www.youtube.com/watch?v=WZ0iwRyJvUE"
+                className=""
+                gradientClass="bg-gradient-to-t from-black/30 via-black/20 to-transparent"
+              />
+            </div>
 
         <WhyChooseSection features={productFeaturesList} />
 

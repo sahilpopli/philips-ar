@@ -45,18 +45,41 @@ export const bldcFans = [
   },
   {
     name: "EcoLink AiroTrio BLDC Ceiling Fan",
-    price: 7400,
+    price: 6150,
     image: "/home/product/airotrio.png",
     slug: "airotrio",
     category: "ceiling-fans"
   },
   {
     name: "EcoLink AiroQuad 3B BLDC Ceiling Fan",
-    price: 7400,
+    price: 7000,
     image: "/home/product/airoquad3b.png",
     slug: "airoquad3b",
     category: "ceiling-fans"
   },
+  {
+    name: "EcoLink AiroKristal BLDC Ceiling Fan",
+    price: 6150,
+    image: "/home/product/airokristal.png",
+    slug: "airokristal",
+    category: "ceiling-fans"
+  },
+  {
+    name: "EcoLink AiroTurbo BLDC Ceiling Fan",
+    price: 4500,
+    image: "/home/product/airoturbo.png",
+    slug: "airoturbo",
+    category: "ceiling-fans"
+  }
+
+                    
+  
+  
+
+   
+
+
+  
 ];
 
 export const smartbldcFans = [
@@ -74,6 +97,20 @@ export const smartbldcFans = [
     slug: "airogeometrysmart",
     category: "smart-fans"
   },
+  {
+    name: "EcoLink AiroQuad Smart Ceiling Fan",
+    price: 8300,
+    image: "/home/product/AiroQuad.png",
+    slug: "airoquadsmart",
+    category: "smart-fans"
+  },
+  {
+    name: "EcoLink AiroElevate Smart Ceiling Fan",
+    price: 9600,
+    image: "/home/product/AiroElevate.png",
+    slug: "airoelevatesmart",
+    category: "smart-fans"
+  }
 ];
 
 export const decorativeFans = [

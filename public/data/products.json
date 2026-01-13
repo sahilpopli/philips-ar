@@ -1299,7 +1299,7 @@
       "fullName": "EcoLink AiroQuad 3B BLDC Ceiling Fan",
       "tagline": "",
       "description": "Innovative design with 3 sleek blades for efficient cooling and modern elegance",
-      "price": 7400,
+      "price": 7000,
       "starRating": 5,
       "arLink": "",
       "warranty": {
@@ -1464,7 +1464,7 @@
           "/home/product/demo/2.jpg",
           "/home/product/demo/3.jpg"
         ],
-        "arModel": "/models/fan-3d.glb"
+        "arModel": ""
       },
       "videos": {
         "promotional": "https://youtu.be/_-lJf3g3kDQ",
@@ -1489,7 +1489,7 @@
       "fullName": "EcoLink AiroTrio BLDC Ceiling Fan",
       "tagline": "",
       "description": "Innovative design with 3 sleek blades for efficient cooling and modern elegance",
-      "price": 7400,
+      "price": 6150,
       "starRating": 5,
       "arLink": "",
       "warranty": {
@@ -1517,7 +1517,7 @@
          
         ],
         "Pearl white": [
-          "/sliders/airoquad3b/4.png"
+          "/sliders/airotrio/4.png"
         ],
         "Phantom Black": [
           "/sliders/airotrio/3.png"
@@ -1533,7 +1533,7 @@
       "colors": [
         {
           "name": "Graphite Wood",
-          "primary": "#3A3A5B",
+          "primary": "#3D3D3D",
           "secondary": "#CCCCCC",
           "gradientFrom": "#FFFFFF",
           "gradientTo": "#DDDDDD"
@@ -1674,7 +1674,7 @@
           "/home/product/demo/2.jpg",
           "/home/product/demo/3.jpg"
         ],
-        "arModel": "/models/fan-3d.glb"
+        "arModel": ""
       },
       "videos": {
         "promotional": "https://youtu.be/_-lJf3g3kDQ",
@@ -1683,6 +1683,376 @@
       "aesthetics": {
         "title": "Hassle free installation",
         "description": "EcoLink AiroTrio BLDC ceiling fan features adjustable mounting, making it suitable for any ceiling type in your home",
+        "highlightPoints": []
+      },
+      "categories": [
+        "bldc",
+        "premium",
+        "featured"
+      ]
+    },
+    {
+      "id": "airokristal",
+      "slug": "airokristal",
+      "modelName": "AiroKristal",
+      "fullName": "EcoLink AiroKristal BLDC Ceiling Fan",
+      "tagline": "",
+      "description": "Elegant decorative ceiling fan with distinctive design and superior air delivery, enhancing any space with efficient performance.",
+      "price": 6150,
+      "starRating": 5,
+      "arLink": "",
+      "warranty": {
+        "standard": 3,
+        "extended": 2,
+        "note": "Get 2 years extended warranty with 3 years standard warranty on EcoLink BLDC Ceiling fan. To activate extended warranty, register product on Signify DigiShield App"
+      },
+      "specifications": {
+        "sweepSize": "1200 mm",
+        "power": "36 W",
+        "speed": "370 RPM",
+        "airDelivery": "240 CMM",
+        "dimensions": "xx mm X yy mm X zz mm (length X width X height)",
+        "type": "BLDC Ceiling fan",
+        "brand": "EcoLink"
+      },
+      "sliderImages": {
+       
+        "Pearl white": [
+          "/sliders/airokristal/4.png"
+        ],
+        "Satin Gold": [
+          "/sliders/airokristal/1.png",
+          "/sliders/airokristal/2.png"
+        ],
+        "Smoke Mocha Brown": [
+          "/sliders/airokristal/3.png"
+        ],
+        "Phantom Black": [
+          "/sliders/airokristal/5.png"
+        ]
+        
+      },
+      "colors": [
+        
+        {
+          "name": "Satin Gold",
+          "primary": "#FFD700",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Pearl white",
+          "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        
+        {
+          "name": "Phantom Black",
+          "primary": "#000000",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Smoke Mocha Brown",
+          "primary": "#573f16",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        }
+       
+      ],
+      "sizes": [
+        {
+          "label": "1200mm",
+          "value": "1200"
+        }
+      ],
+      "keyFeature": "Unique Square hub design",
+      "features": [
+        {
+          "title": "BLDC Technology",
+          "description": "",
+          "icon": "/home/icons/feature1.svg"
+        },
+        {
+          "title": "Runs 3x longer on inverter",
+          "description": "",
+          "icon": "/home/icons/feature2.svg"
+        },
+        {
+          "title": "Ceiling adjustable mounting \nMaintains design aesthetic",
+          "description": "",
+          "icon": "/home/icons/feature3.svg"
+        },
+        {
+          "title": "Designer LED speed indicators*",
+          "description": "",
+          "icon": "/home/icons/feature4.svg"
+        },
+        {
+          "title": "2 way rotation for Summers and Winters",
+          "description": "",
+          "icon": "/home/icons/feature5.svg"
+        },
+        {
+          "title": "Point anywhere RF remote",
+          "description": "",
+          "icon": "/home/icons/feature6.svg"
+        },
+        {
+          "title": "Superior air delivery",
+          "description": "",
+          "icon": "/home/icons/feature7.svg"
+        },
+        {
+          "title": "100% copper motor",
+          "description": "",
+          "icon": "/home/icons/feature8.svg"
+        },
+        {
+          "title": "Turbo mode, Timer (2,4,6 hours)",
+          "description": "",
+          "icon": "/home/icons/feature9.svg"
+        }
+      ],
+      "seasonalFeatures": {
+        "summer": {
+          "title": "Summer Mode",
+          "description": "Counter-clockwise rotation pushes air down for a cooling effect",
+          "image": ""
+        },
+        "winter": {
+          "title": "Winter Mode",
+          "description": "Clockwise rotation pulls cold air up and pushes warm air down without causing a draft",
+          "image": "/home/quad-winter.png"
+        }
+      },
+      "energyEfficiency": {
+        "title": "Runs 3x longer on inverter",
+        "annualSavings": 1500,
+        "description": "EcoLink AiroTrio BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
+        "icon": "/home/icons/inverter-energy.svg"
+      },
+      "ledFeature": {
+        "title": "Designer LED speed indicator",
+        "description": "Stylish ceiling fan featuring a designer LED speed indicator for a modern touch and enhanced functionality",
+        "image": "/home/product/airokristal.png"
+      },
+      "remoteFeatures": {
+        "type": "RF Remote",
+        "range": "No line of sight required",
+        "functions": [
+          "Power On/Off",
+          "Speed Control (6 speeds)",
+          "Turbo Mode",
+          "Timer (2, 4, 6 hours)",
+          "Summer/Winter Mode (Direction Control)"
+        ],
+        "image": "/home/dark-remote-feat.png",
+        "lightModeImage": "/home/light-remote-feat.png",
+        "title": "Convenient Control at your fingertips!",
+        "description": "Effortlessly control your comfort with a Point Anywhere RF remote for ultimate convenience"
+      },
+      "images": {
+        "main": "/home/product/airokristal.png",
+        "gallery": [
+          "/home/product/demo/1.png",
+          "/home/product/demo/2.jpg",
+          "/home/product/demo/3.jpg"
+        ],
+        "arModel": ""
+      },
+      "videos": {
+        "promotional": "https://youtu.be/_-lJf3g3kDQ",
+        "thumbnail": "/home/video-card-bg.png"
+      },
+      "aesthetics": {
+        "title": "Hassle free installation",
+        "description": "EcoLink AiroKristal BLDC ceiling fan features adjustable mounting, making it suitable for any ceiling type in your home",
+        "highlightPoints": []
+      },
+      "categories": [
+        "bldc",
+        "premium",
+        "featured"
+      ]
+    },
+    {
+      "id": "airoturbo",
+      "slug": "airoturbo",
+      "modelName": "AiroTurbo",
+      "fullName": "EcoLink AiroTurbo BLDC Ceiling Fan",
+      "tagline": "",
+      "description": "Powerful and efficient ceiling fan with advanced turbo mode for faster air circulation and optimal cooling.",
+      "price": 4500,
+      "starRating": 5,
+      "arLink": "",
+      "warranty": {
+        "standard": 3,
+        "extended": 2,
+        "note": "Get 2 years extended warranty with 3 years standard warranty on EcoLink BLDC Ceiling fan. To activate extended warranty, register product on Signify DigiShield App"
+      },
+      "specifications": {
+        "sweepSize": "1200 mm",
+        "power": "35 W",
+        "speed": "370 RPM",
+        "airDelivery": "230 CMM",
+        "dimensions": "xx mm X yy mm X zz mm (length X width X height)",
+        "type": "BLDC Ceiling fan",
+        "brand": "EcoLink"
+      },
+      "sliderImages": {
+       
+        "Titanium Grey": [
+          "/sliders/airoturbo/1.png",
+          "/sliders/airoturbo/2.png"
+        ],
+        "Smoke Mocha Brown": [
+          "/sliders/airoturbo/3.png"
+        ],
+       
+        "Silver Mist": [
+          "/sliders/airoturbo/4.png"
+        ]
+        
+      },
+      "colors": [
+        
+        {
+          "name": "Titanium Grey",
+          "primary": "#3A3A5B",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Silver Mist",
+          "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        }, 
+        {
+          "name": "Smoke Mocha Brown",
+          "primary": "#573f16",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        }
+       
+      ],
+      "sizes": [
+        {
+          "label": "1200mm",
+          "value": "1200"
+        }
+      ],
+      "keyFeature": "Unique Square hub design",
+      "features": [
+        {
+          "title": "BLDC Technology",
+          "description": "",
+          "icon": "/home/icons/feature1.svg"
+        },
+        {
+          "title": "Runs 3x longer on inverter",
+          "description": "",
+          "icon": "/home/icons/feature2.svg"
+        },
+        {
+          "title": "Ceiling adjustable mounting \nMaintains design aesthetic",
+          "description": "",
+          "icon": "/home/icons/feature3.svg"
+        },
+        {
+          "title": "Designer LED speed indicators*",
+          "description": "",
+          "icon": "/home/icons/feature4.svg"
+        },
+        {
+          "title": "2 way rotation for Summers and Winters",
+          "description": "",
+          "icon": "/home/icons/feature5.svg"
+        },
+        {
+          "title": "Point anywhere RF remote",
+          "description": "",
+          "icon": "/home/icons/feature6.svg"
+        },
+        {
+          "title": "Superior air delivery",
+          "description": "",
+          "icon": "/home/icons/feature7.svg"
+        },
+        {
+          "title": "100% copper motor",
+          "description": "",
+          "icon": "/home/icons/feature8.svg"
+        },
+        {
+          "title": "Turbo mode, Timer (2,4,6 hours)",
+          "description": "",
+          "icon": "/home/icons/feature9.svg"
+        }
+      ],
+      "seasonalFeatures": {
+        "summer": {
+          "title": "Summer Mode",
+          "description": "Counter-clockwise rotation pushes air down for a cooling effect",
+          "image": ""
+        },
+        "winter": {
+          "title": "Winter Mode",
+          "description": "Clockwise rotation pulls cold air up and pushes warm air down without causing a draft",
+          "image": "/home/quad-winter.png"
+        }
+      },
+      "energyEfficiency": {
+        "title": "Runs 3x longer on inverter",
+        "annualSavings": 1500,
+        "description": "EcoLink AiroTrio BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
+        "icon": "/home/icons/inverter-energy.svg"
+      },
+      "ledFeature": {
+        "title": "Designer LED speed indicator",
+        "description": "Stylish ceiling fan featuring a designer LED speed indicator for a modern touch and enhanced functionality",
+        "image": "/home/product/airoturbo.png"
+      },
+      "remoteFeatures": {
+        "type": "RF Remote",
+        "range": "No line of sight required",
+        "functions": [
+          "Power On/Off",
+          "Speed Control (6 speeds)",
+          "Turbo Mode",
+          "Timer (2, 4, 6 hours)",
+          "Summer/Winter Mode (Direction Control)"
+        ],
+        "image": "/home/dark-remote-feat.png",
+        "lightModeImage": "/home/light-remote-feat.png",
+        "title": "Convenient Control at your fingertips!",
+        "description": "Effortlessly control your comfort with a Point Anywhere RF remote for ultimate convenience"
+      },
+      "images": {
+        "main": "/home/product/airoturbo.png",
+        "gallery": [
+          "/home/product/demo/1.png",
+          "/home/product/demo/2.jpg",
+          "/home/product/demo/3.jpg"
+        ],
+        "arModel": ""
+      },
+      "videos": {
+        "promotional": "https://youtu.be/_-lJf3g3kDQ",
+        "thumbnail": "/home/video-card-bg.png"
+      },
+      "aesthetics": {
+        "title": "Hassle free installation",
+        "description": "EcoLink AiroTurbo BLDC ceiling fan features adjustable mounting, making it suitable for any ceiling type in your home",
         "highlightPoints": []
       },
       "categories": [
@@ -2667,7 +3037,389 @@
         "premium",
         "featured"
       ]
+    },
+    {
+      "id": "airoquadsmart",
+      "slug": "airoquadsmart",
+      "modelName": "AiroQuad Smart",
+      "fullName": "EcoLink AiroQuad Smart Ceiling Fan",
+      "tagline": "",
+      "description": "Innovative design with 4 sleek blades for efficient cooling and modern elegance",
+      "price": 8300,
+      "starRating": 5,
+      "arLink": "",
+      "warranty": {
+        "standard": 3,
+        "extended": 2,
+        "note": "Get 2 years extended warranty with 3 years standard warranty on EcoLink BLDC Ceiling fan. To activate extended warranty, register product on Signify DigiShield App"
+      },
+      "specifications": {
+        "sweepSize": "1200 mm",
+        "power": "35 W",
+        "speed": "370 RPM",
+        "airDelivery": "230 CMM",
+        "dimensions": "xx mm X yy mm X zz mm (length X width X height)",
+        "type": "Smart Ceiling fan",
+        "brand": "EcoLink"
+      },
+      "sliderImages": {
+        "Galactic Silver": [
+          "/sliders/aeroquad/Galactic Silver/Artboard 1.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 2.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 3.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 4.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 5.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 6.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 7.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 8.png",
+          "/sliders/aeroquad/Galactic Silver/Artboard 9.png"
+        ],
+       
+        "Titanium Grey": [
+          "/sliders/aeroquad/Titanium Grey/Artboard 1.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 2.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 3.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 4.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 5.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 6.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 7.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 8.png",
+          "/sliders/aeroquad/Titanium Grey/Artboard 9.png"
+        ],
+        "Pearl white": [
+          "/sliders/aeroquad/Pearl white/1.png"
+        ],
+        "Phantom Black": [
+          "/sliders/aeroquad/Phantom Black/1.png?v=3"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Galactic Silver",
+          "primary": "#CCCCCC", 
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        
+        {
+          "name": "Titanium Grey",
+          "primary": "#3A3A5B",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Pearl white",
+          "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+         {
+          "name": "Phantom Black",
+          "primary": "#000000",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        }
+      ],
+      "sizes": [
+        {
+          "label": "1200mm",
+          "value": "1200"
+        }
+      ],
+      "keyFeature": "Unique Square hub design",
+      "features": [
+        {
+          "title": "BLDC Technology",
+          "description": "",
+          "icon": "/home/icons/feature1.svg"
+        },
+        {
+          "title": "Runs 3x longer on inverter",
+          "description": "",
+          "icon": "/home/icons/feature2.svg"
+        },
+        {
+          "title": "Ceiling adjustable mounting \nMaintains design aesthetic",
+          "description": "",
+          "icon": "/home/icons/feature3.svg"
+        },
+        {
+          "title": "Designer LED speed indicators*",
+          "description": "",
+          "icon": "/home/icons/feature4.svg"
+        },
+        {
+          "title": "2 way rotation for Summers and Winters",
+          "description": "",
+          "icon": "/home/icons/feature5.svg"
+        },
+        {
+          "title": "Point anywhere RF remote",
+          "description": "",
+          "icon": "/home/icons/feature6.svg"
+        },
+        {
+          "title": "Superior air delivery",
+          "description": "",
+          "icon": "/home/icons/feature7.svg"
+        },
+        {
+          "title": "100% copper motor",
+          "description": "",
+          "icon": "/home/icons/feature8.svg"
+        },
+        {
+          "title": "Turbo mode, Timer (2,4,6 hours)",
+          "description": "",
+          "icon": "/home/icons/feature9.svg"
+        }
+      ],
+      "seasonalFeatures": {
+        "summer": {
+          "title": "Summer Mode",
+          "description": "Counter-clockwise rotation pushes air down for a cooling effect",
+          "image": "/home/quad-summer.png"
+        },
+        "winter": {
+          "title": "Winter Mode",
+          "description": "Clockwise rotation pulls cold air up and pushes warm air down without causing a draft",
+          "image": "/home/quad-winter.png"
+        }
+      },
+      "energyEfficiency": {
+        "title": "Runs 3x longer on inverter",
+        "annualSavings": 1500,
+        "description": "EcoLink AiroQuad BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
+        "icon": "/home/icons/inverter-energy.svg"
+      },
+      "ledFeature": {
+        "title": "Designer LED speed indicator",
+        "description": "Stylish ceiling fan featuring a designer LED speed indicator for a modern touch and enhanced functionality",
+        "image": "/home/product/AiroQuad.png"
+      },
+      "remoteFeatures": {
+        "type": "RF Remote",
+        "range": "No line of sight required",
+        "functions": [
+          "Power On/Off",
+          "Speed Control (6 speeds)",
+          "Turbo Mode",
+          "Timer (2, 4, 6 hours)",
+          "Summer/Winter Mode (Direction Control)"
+        ],
+        "image": "/home/dark-remote-feat.png",
+        "lightModeImage": "/home/light-remote-feat.png",
+        "title": "Convenient Control at your fingertips!",
+        "description": "Effortlessly control your comfort with a Point Anywhere RF remote for ultimate convenience"
+      },
+      "images": {
+        "main": "/home/product/AiroQuad.png",
+        "gallery": [
+          "/home/product/demo/1.png",
+          "/home/product/demo/2.jpg",
+          "/home/product/demo/3.jpg"
+        ],
+        "arModel": "/models/fan-3d.glb"
+      },
+      "videos": {
+        "promotional": "https://youtu.be/_-lJf3g3kDQ",
+        "thumbnail": "/home/video-card-bg.png"
+      },
+      "aesthetics": {
+        "title": "Hassle free installation",
+        "description": "EcoLink AiroQuad Smart ceiling fan features adjustable mounting, making it suitable for any ceiling type in your home",
+        "highlightPoints": []
+      },
+      "categories": [
+        "smart",
+        "premium",
+        "featured"
+      ]
+    },
+    {
+      "id": "airoelevatesmart",
+      "slug": "airoelevatesmart",
+      "modelName": "AiroElevate Smart",
+      "fullName": "EcoLink AiroElevate Smart Ceiling Fan",
+      "tagline": "Unique hollow hub design",
+      "description": "Innovative design of EcoLink AiroElevate Smart ceiling fan enhances both functionality and style, making it a must-have for modern interiors!",
+      "price": 9600,
+      "starRating": 5,
+      "arLink": "",
+      "warranty": {
+        "standard": 3,
+        "extended": 2,
+        "note": "Get 2 years extended warranty with 3 years standard warranty on EcoLink BLDC Ceiling fan. To activate extended warranty, register product on Signify DigiShield App"
+      },
+      "specifications": {
+        "sweepSize": "1200 mm",
+        "power": "35 W",
+        "speed": "370 RPM",
+        "airDelivery": "230 CMM",
+        "dimensions": "xx mm X yy mm X zz mm (length X width X height)",
+        "type": "BLDC Ceiling fan",
+        "brand": "EcoLink"
+      },
+      "sliderImages": {
+        "Espresso Brown - Copper": [
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 1.png",
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 2.png",
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 3.png",
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 4.png",
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 5.png",
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 6.png",
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 7.png",
+          "/sliders/airoelevate/Espresso Brown - Copper/Artboard 8.png"
+        ],
+        "Silk White - Rose Gold": [
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 1.png",
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 2.png", 
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 3.png",
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 4.png",
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 5.png",
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 6.png",
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 7.png",
+          "/sliders/airoelevate/Silk White - Rose Gold/Artboard 8.png"
+        ],
+        "Vanila - Beige Gold":[
+          "/sliders/airoelevate/Vanila – Beige Gold/1.png"
+        ],
+        "Phantom Black":[
+          "/sliders/airoelevate/Phantom Black/1.png?v=3"
+        ]
+      },
+      "colors": [
+        {
+          "name": "Espresso Brown - Copper",
+          "primary": "#3A3A5B",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Silk White - Rose Gold",
+          "primary": "#FFFFFF",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Vanila – Beige Gold",
+          "primary": "#F5F5F5",
+          "secondary": "#CCCCCC", 
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        },
+        {
+          "name": "Phantom Black",
+          "primary": "#000000",
+          "secondary": "#CCCCCC",
+          "gradientFrom": "#FFFFFF",
+          "gradientTo": "#DDDDDD"
+        }
+      ],
+      "sizes": [
+        {
+          "label": "1200mm",
+          "value": "1200"
+        }
+      ],
+      "keyFeature": "Unique hollow hub design",
+      "features": [
+        {
+          "title": "Premium Aesthetics",
+          "description": "",
+          "icon": "/home/icons/feature1.svg"
+        },
+        {
+          "title": "Superior Air Flow",
+          "description": "",
+          "icon": "/home/icons/feature2.svg"
+        },
+        {
+          "title": "Copper Motor",
+          "description": "",
+          "icon": "/home/icons/feature3.svg"
+        },
+        {
+          "title": "Turbo Mode",
+          "description": "",
+          "icon": "/home/icons/feature4.svg"
+        },
+        {
+          "title": "2-way rotation for Summer and Winter",
+          "description": "",
+          "icon": "/home/icons/feature5.svg"
+        },
+        {
+          "title": "Point anywhere RF remote",
+          "description": "",
+          "icon": "/home/icons/feature6.svg"
+        }
+      ],
+      "seasonalFeatures": {
+        "summer": {
+          "title": "Summer Mode",
+          "description": "Counter-clockwise rotation pushes air down for a cooling effect",
+          "image": "/home/summer.png"
+        },
+        "winter": {
+          "title": "Winter Mode",
+          "description": "Clockwise rotation pulls cold air up and pushes warm air down without causing a draft",
+          "image": "/home/winters.png"
+        }
+      },
+      "energyEfficiency": {
+        "title": "Runs 3x longer on inverter",
+        "annualSavings": 1500,
+        "description": "EcoLink AiroElevate BLDC ceiling fan, features a powerful BLDC motor, maximizing energy savings and cooling performance.",
+        "icon": "/home/icons/inverter-energy.svg"
+      },
+      "ledFeature": {},
+      "remoteFeatures": {
+        "type": "RF Remote",
+        "range": "No line of sight required",
+        "functions": [
+          "Power On/Off",
+          "Speed Control (6 speeds)",
+          "Turbo Mode",
+          "Timer (2, 4, 6 hours)",
+          "Summer/Winter Mode (Direction Control)"
+        ],
+        "image": "/home/dark-remote-feat.png",
+        "lightModeImage": "/home/light-remote-feat.png",
+        "title": "Convenient Control at your fingertips!",
+        "description": "Effortlessly control your comfort with a Point Anywhere RF remote for ultimate convenience"
+      },
+      "images": {
+        "main": "/home/product/AiroElevate.png?v=1",
+        "gallery": [
+          "/home/product/demo/1.png",
+          "/home/product/demo/2.jpg",
+          "/home/product/demo/3.jpg"
+        ],
+        "arModel": "/models/fan-3d.glb"
+      },
+      "videos": {
+        "promotional": "https://youtu.be/_-lJf3g3kDQ",
+        "thumbnail": "/home/video-card-bg.png"
+      },
+      "aesthetics": {
+        "title": "Hassle free installation",
+        "description": "EcoLink AiroElevate Smart ceiling fan features adjustable mounting, making it suitable for any ceiling type in your home",
+        "highlightPoints": []
+      },
+      "categories": [
+        "smart",
+        "premium",
+        "featured"
+      ]
     }
+   
   ],
   "categories": [
     {
