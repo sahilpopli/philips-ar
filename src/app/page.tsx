@@ -54,7 +54,7 @@ export default function Home() {
   const heroSlides = [
     {
       desktopBg: "/home/sliders/desktop/1.png?v=2",
-      mobileBg: "/home/sliders/mobile/1.png?v=1",
+      mobileBg: "/home/sliders/mobile/02.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",
@@ -78,7 +78,7 @@ export default function Home() {
       features: null,
     },{
       desktopBg: "/home/sliders/desktop/4.png?v=1",
-      mobileBg: "/home/sliders/mobile/4.png?v=1",
+      mobileBg: "/home/sliders/mobile/01.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",

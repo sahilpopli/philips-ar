@@ -71,7 +71,7 @@ export const YouTubeVideoCard: FC<YouTubeVideoCardProps> = ({
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
         <motion.div 
-          className={`rounded-2xl aspect-square lg:aspect-video overflow-hidden shadow-lg relative cursor-pointer ${className}`}
+          className={`rounded-2xl aspect-video lg:aspect-video overflow-hidden shadow-lg relative cursor-pointer ${className}`}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -79,10 +79,10 @@ export const YouTubeVideoCard: FC<YouTubeVideoCardProps> = ({
           onClick={() => embedUrl && !videoError && setIsOpen(true)}
         >
           {/* Background Image - YouTube Thumbnail */}
-          <div className="absolute inset-0 w-full h-full bg-slate-800">
+          <div className="absolute inset-0 w-full h-full bg-slate-800 ">
             {thumbnailUrl && (
               <div 
-                className="w-full h-full bg-cover bg-center"
+                className="w-full h-full bg-cover bg-no-repeat bg-center "
                 style={{ backgroundImage: `url(${thumbnailUrl})` }}
               />
             )}
@@ -91,7 +91,7 @@ export const YouTubeVideoCard: FC<YouTubeVideoCardProps> = ({
           {/* Play Button */}
           <div className="absolute inset-0 flex items-center justify-center z-10">
             {embedUrl && !videoError && (
-              <div className="w-24 h-24 rounded-full bg-white/10 backdrop-blur-xs flex items-center justify-center transition-transform hover:scale-110 shadow-lg">
+              <div className="lg:w-24 lg:h-24 w-16 h-16 rounded-full bg-white/10 backdrop-blur-xs flex items-center justify-center transition-transform hover:scale-110 shadow-lg">
                 <div className="w-0 h-0 border-t-[15px] border-t-transparent border-b-[15px] border-b-transparent border-l-[25px] border-l-white ml-2"></div>
               </div>
             )}
