@@ -53,6 +53,17 @@ export default function Home() {
 
   const heroSlides = [
     {
+      type: 'video' as const,
+      videoUrl: "https://www.youtube.com/watch?v=WZ0iwRyJvUE",
+      desktopBg: "",
+      mobileBg: "",
+      subheading: "",
+      heading: "",
+      buttonText: "",
+      buttonLink: "",
+      features: null,
+    },
+    {
       desktopBg: "/home/sliders/desktop/1.png?v=2",
       mobileBg: "/home/sliders/mobile/02.png?v=1",
       subheading: "",

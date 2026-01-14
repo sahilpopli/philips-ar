@@ -8,6 +8,8 @@ interface Feature {
 }
 
 interface HeroSlideProps {
+  type?: 'image' | 'video'
+  videoUrl?: string
   desktopBg: string
   mobileBg: string
   heading: string
@@ -18,6 +20,8 @@ interface HeroSlideProps {
 }
 
 export const HeroSlide = ({
+  type = 'image',
+  videoUrl,
   desktopBg,
   mobileBg,
   heading,
@@ -39,7 +43,23 @@ export const HeroSlide = ({
     return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
-  // If there's no heading, show only the full-scale background image
+  if (type === 'video' && videoUrl) {
+    return (
+      <div className="relative w-full h-screen">
+        <link rel="preconnect" href="https://www.youtube.com" />
+        <link rel="preconnect" href="https://i.ytimg.com" />
+        <iframe
+          src={`https://www.youtube.com/embed/${new URL(videoUrl).searchParams.get('v')}?autoplay=1&mute=1&controls=1&showinfo=0&rel=0&loop=0&modestbranding=1&playsinline=1&enablejsapi=1`}
+          className="absolute inset-0 w-full h-full"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          loading="eager"
+          style={{ border: 'none' }}
+        />
+      </div>
+    )
+  }
+
   if (!heading) {
     return (
       <div className={`relative w-full  h-screen `}>

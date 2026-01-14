@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { useEffect, useState, useRef } from 'react';
+import type { Swiper as SwiperType } from 'swiper';
 
 interface Feature {
   icon: string;
@@ -15,6 +16,8 @@ interface Feature {
 }
 
 interface Slide {
+  type?: 'image' | 'video';
+  videoUrl?: string;
   desktopBg?: string;
   subheading: string;
   heading: string;
@@ -28,35 +31,26 @@ interface DesktopHeroSwiperProps {
 }
 
 export function DesktopHeroSwiper({ slides }: DesktopHeroSwiperProps) {
-  // Calculate height based on aspect ratio and viewport width
   const [sliderHeight, setSliderHeight] = useState('calc(100vh - 75px)');
   const containerRef = useRef<HTMLDivElement>(null);
+  const swiperRef = useRef<SwiperType | null>(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const calculateHeight = () => {
-      // Original image aspect ratio: 6000 / 3805 ≈ 1.577
       const aspectRatio = 6000 / 3805;
       const viewportWidth = window.innerWidth;
       const viewportHeight = window.innerHeight;
       
-      // Calculate height based on aspect ratio
       let calculatedHeight = viewportWidth / aspectRatio;
-      
-      // Ensure the height doesn't exceed viewport height minus header (75px)
       const maxHeight = viewportHeight - 75;
       calculatedHeight = Math.min(calculatedHeight, maxHeight);
-      
-      // Ensure minimum height for smaller screens
       calculatedHeight = Math.max(calculatedHeight, 500);
       
-      // Set the final height
       setSliderHeight(`${calculatedHeight}px`);
     };
 
-    // Initial calculation
     calculateHeight();
-    
-    // Recalculate on resize
     window.addEventListener('resize', calculateHeight);
     
     return () => {
@@ -64,7 +58,6 @@ export function DesktopHeroSwiper({ slides }: DesktopHeroSwiperProps) {
     };
   }, []);
 
-  // Add class to body to help with full-width slider
   useEffect(() => {
     document.body.classList.add('has-fullwidth-slider');
     
@@ -72,6 +65,16 @@ export function DesktopHeroSwiper({ slides }: DesktopHeroSwiperProps) {
       document.body.classList.remove('has-fullwidth-slider');
     };
   }, []);
+
+  useEffect(() => {
+    if (swiperRef.current && slides[currentSlide]?.type === 'video') {
+      const timer = setTimeout(() => {
+        swiperRef.current?.slideNext();
+      }, 8000);
+      
+      return () => clearTimeout(timer);
+    }
+  }, [currentSlide, slides]);
 
   return (
     <div 
@@ -93,12 +96,31 @@ export function DesktopHeroSwiper({ slides }: DesktopHeroSwiperProps) {
         }}
         loop={true}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: true, pauseOnMouseEnter: true }}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
+        }}
+        onSlideChange={(swiper) => {
+          setCurrentSlide(swiper.realIndex);
+        }}
         className="w-full h-full"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index} className="w-full h-full">
-            {!slide.heading ? (
+            {slide.type === 'video' && slide.videoUrl ? (
+              <div className="relative w-full h-full">
+                <link rel="preconnect" href="https://www.youtube.com" />
+                <link rel="preconnect" href="https://i.ytimg.com" />
+                <iframe
+                  src={`https://www.youtube.com/embed/${new URL(slide.videoUrl).searchParams.get('v')}?autoplay=1&mute=1&controls=1&showinfo=0&rel=0&loop=0&modestbranding=1&playsinline=1&enablejsapi=1`}
+                  className="absolute inset-0 w-full h-full"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  loading="eager"
+                  style={{ border: 'none' }}
+                />
+              </div>
+            ) : !slide.heading ? (
               // Full-scale background image only when there's no heading
               <div className="relative w-full h-full">
                 {slide.buttonLink ? (

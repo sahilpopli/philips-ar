@@ -3,6 +3,8 @@ import { Navigation, EffectFade } from 'swiper/modules'
 import { HeroSlide } from './HeroSlide'
 import 'swiper/css'
 import 'swiper/css/navigation'
+import { useEffect, useRef, useState } from 'react'
+import type { Swiper as SwiperType } from 'swiper'
 
 interface Feature {
   icon: string
@@ -11,6 +13,8 @@ interface Feature {
 
 interface HeroSwiperProps {
   slides: Array<{
+    type?: 'image' | 'video'
+    videoUrl?: string
     desktopBg: string
     mobileBg: string
     heading: string
@@ -22,16 +26,34 @@ interface HeroSwiperProps {
 }
 
 export const HeroSwiper = ({ slides }: HeroSwiperProps) => {
+  const swiperRef = useRef<SwiperType | null>(null)
+  const [currentSlide, setCurrentSlide] = useState(0)
+
+  useEffect(() => {
+    if (swiperRef.current && slides[currentSlide]?.type === 'video') {
+      const timer = setTimeout(() => {
+        swiperRef.current?.slideNext()
+      }, 8000)
+      
+      return () => clearTimeout(timer)
+    }
+  }, [currentSlide, slides])
+
   return (
     <div className="relative">
       <Swiper
         modules={[EffectFade,Navigation]}
-        
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }}
         loop={true}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper
+        }}
+        onSlideChange={(swiper) => {
+          setCurrentSlide(swiper.realIndex)
+        }}
         className="relative"
       >
         {slides.map((slide, index) => (

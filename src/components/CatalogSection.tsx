@@ -27,9 +27,9 @@ export const CatalogSection = () => {
         {isMobile ? (
           // Mobile version
           <div className="px-4 py-8">
-            <a href="/Ecolink-Fans brochure-2025.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/brochure/Ecolink-Fans-New-Brochure-2026.pdf" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/home/fans-catalog-new.png?V=1"
+                src="/home/2026-brochure-mobile.png?V=1"
                 alt="Fans Catalog - Mobile"
                 width={1000}
                 height={1000}
@@ -41,9 +41,9 @@ export const CatalogSection = () => {
           // Desktop version
           <div className="container mx-auto px-4 py-16">
             <div className="w-full">
-              <a href="/Ecolink-Fans brochure-2025.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/brochure/Ecolink-Fans-New-Brochure-2026.pdf" target="_blank" rel="noopener noreferrer">
                 <Image
-                  src="/home/download-catalog.png?V=1"
+                  src="/home/2026-brochure-desktop.jpg?V=1"
                   alt="Fans Catalog - Desktop"
                   width={1000}
                   height={1000}
