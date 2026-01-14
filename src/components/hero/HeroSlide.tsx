@@ -45,17 +45,19 @@ export const HeroSlide = ({
 
   if (type === 'video' && videoUrl) {
     return (
-      <div className="relative w-full h-screen">
+      <div className="relative w-full h-screen flex items-center justify-center">
         <link rel="preconnect" href="https://www.youtube.com" />
         <link rel="preconnect" href="https://i.ytimg.com" />
-        <iframe
-          src={`https://www.youtube.com/embed/${new URL(videoUrl).searchParams.get('v')}?autoplay=1&mute=1&controls=1&showinfo=0&rel=0&loop=0&modestbranding=1&playsinline=1&enablejsapi=1`}
-          className="absolute inset-0 w-full h-full"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-          loading="eager"
-          style={{ border: 'none' }}
-        />
+        <div className="w-full aspect-video md:h-full md:w-full">
+          <iframe
+            src={`https://www.youtube.com/embed/${new URL(videoUrl).searchParams.get('v')}?autoplay=1&mute=1&controls=1&showinfo=0&rel=0&loop=0&modestbranding=1&playsinline=1&enablejsapi=1`}
+            className="w-full h-full"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+            loading="eager"
+            style={{ border: 'none' }}
+          />
+        </div>
       </div>
     )
   }

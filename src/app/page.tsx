@@ -52,19 +52,19 @@ export default function Home() {
   // ];
 
   const heroSlides = [
+    // {
+    //   type: 'video' as const,
+    //   videoUrl: "https://www.youtube.com/watch?v=WZ0iwRyJvUE",
+    //   desktopBg: "",
+    //   mobileBg: "",
+    //   subheading: "",
+    //   heading: "",
+    //   buttonText: "",
+    //   buttonLink: "",
+    //   features: null,
+    // },
     {
-      type: 'video' as const,
-      videoUrl: "https://www.youtube.com/watch?v=WZ0iwRyJvUE",
-      desktopBg: "",
-      mobileBg: "",
-      subheading: "",
-      heading: "",
-      buttonText: "",
-      buttonLink: "",
-      features: null,
-    },
-    {
-      desktopBg: "/home/sliders/desktop/1.png?v=2",
+      desktopBg: "/home/sliders/desktop/001.png?v=2",
       mobileBg: "/home/sliders/mobile/004.png?v=1",
       subheading: "",
       heading: "",
@@ -73,7 +73,7 @@ export default function Home() {
       features: null,
     },
     {
-    desktopBg: "/home/sliders/desktop/04.png",
+    desktopBg: "/home/sliders/desktop/002.png",
     mobileBg: "/home/sliders/mobile/003.png?v=4",
     subheading: "",
     heading: "",
@@ -81,7 +81,7 @@ export default function Home() {
     buttonLink: "/ceiling-fans/airojewel",
     features: null,
   },{
-    desktopBg: "/home/sliders/desktop/03.png",
+    desktopBg: "/home/sliders/desktop/003.png",
     mobileBg: "/home/sliders/mobile/005.png?v=1",
     subheading: "",
     heading: "",
@@ -90,7 +90,7 @@ export default function Home() {
     features: null,
   },
     {
-      desktopBg: "/home/sliders/desktop/4.png?v=1",
+      desktopBg: "/home/sliders/desktop/004.png?v=1",
       mobileBg: "/home/sliders/mobile/002.png?v=1",
       subheading: "",
       heading: "",
