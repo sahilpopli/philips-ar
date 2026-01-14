@@ -144,6 +144,20 @@ export default function RootLayout({
             gtag('event', 'conversion', {'send_to': 'AW-10956281123/ug4zCKbnj7UZEKOqrugo'});
           `}
         </Script>
+
+        {/* Google Ads Tag (AW-17871754184) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17871754184"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-new" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17871754184');
+          `}
+        </Script>
         
         {/* Google Analytics G-GXSYMY0S6X */}
         <Script

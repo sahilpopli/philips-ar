@@ -66,13 +66,7 @@ export const bldcFans = [
     slug: "airogeometry",
     category: "ceiling-fans"
   },
-  {
-    name: "EcoLink Stardust BLDC Ceiling Fan",
-    price: 6499,
-    image: "/home/product/StarDust.png",
-    slug: "stardustbldc",
-    category: "ceiling-fans"
-  }
+  
   
 
    

@@ -55,7 +55,19 @@ export function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/store-locator" className="hover:underline">
+                    <Link 
+                      href="/store-locator" 
+                      onClick={() => {
+                        if (typeof window !== 'undefined' && window.gtag) {
+                          window.gtag('event', 'conversion', {
+                            'send_to': 'AW-17871754184/S7dOCKvN3eIbEMin9clC',
+                            'value': 1.0,
+                            'currency': 'INR'
+                          });
+                        }
+                      }}
+                      className="hover:underline"
+                    >
                       Store Locator
                     </Link>
                   </li>
@@ -105,7 +117,7 @@ export function Footer() {
                   <li><Link href="/ceiling-fans/airoquad" className="hover:underline">AiroQuad</Link></li>
                   <li><Link href="/ceiling-fans/airojewel" className="hover:underline">AiroJewel</Link></li>
                   <li><Link href="/ceiling-fans/airogeometry" className="hover:underline">AiroGeometry</Link></li>
-                  <li><Link href="/ceiling-fans/stardustbldc" className="hover:underline">Stardust</Link></li>
+                  {/* <li><Link href="/ceiling-fans/stardustbldc" className="hover:underline">Stardust</Link></li> */}
                 </ul>
               </div>
               <div>

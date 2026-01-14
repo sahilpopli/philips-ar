@@ -8,7 +8,6 @@ const productCategoryMap: { [key: string]: string } = {
   'airoquad': 'ceiling-fans',
   'airogeometry': 'ceiling-fans',
   'airojewel': 'ceiling-fans',
-  'stardustbldc': 'ceiling-fans',
   
   // Smart Fans
   'airojewelsmart': 'smart-fans',

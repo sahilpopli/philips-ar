@@ -89,7 +89,7 @@ const nextConfig = {
   async redirects() {
     // Define all product slugs for redirect mapping
     const productSlugs = [
-      'airoelevate', 'airoquad', 'airogeometry', 'airojewel', 'stardustbldc',
+      'airoelevate', 'airoquad', 'airogeometry', 'airojewel',
       'airojewelsmart', 'airogeometrysmart',
       'airozephyr', 'airoserenade', 'airosleek',
       'vayuprohs', 'vayuultra', 'airofreshnew'

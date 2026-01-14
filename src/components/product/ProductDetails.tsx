@@ -152,6 +152,15 @@ export const ProductDetails = ({
               href={amazonLink}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                if (typeof window !== 'undefined' && window.gtag) {
+                  window.gtag('event', 'conversion', {
+                    'send_to': 'AW-17871754184/S7dOCKvN3eIbEMin9clC',
+                    'value': 1.0,
+                    'currency': 'INR'
+                  });
+                }
+              }}
               className="w-full bg-[#582C83] text-white py-4 text-center rounded-lg flex items-center justify-center gap-2 hover:bg-[#4A2570] transition-colors"
             >
               <Image
@@ -164,7 +173,19 @@ export const ProductDetails = ({
           )}
           
           {/* Store Button */}
-          <Link href="/store-locator" className={`w-full border-2 border-[#582C83] dark:text-white text-[#582C83] py-4 text-center rounded-lg flex items-center justify-center gap-2 hover:bg-[#582C83]/5 transition-colors ${!amazonLink ? 'md:w-1/2 ' : ''}`}>
+          <Link 
+            href="/store-locator" 
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.gtag) {
+                window.gtag('event', 'conversion', {
+                  'send_to': 'AW-17871754184/S7dOCKvN3eIbEMin9clC',
+                  'value': 1.0,
+                  'currency': 'INR'
+                });
+              }
+            }}
+            className={`w-full border-2 border-[#582C83] dark:text-white text-[#582C83] py-4 text-center rounded-lg flex items-center justify-center gap-2 hover:bg-[#582C83]/5 transition-colors ${!amazonLink ? 'md:w-1/2 ' : ''}`}
+          >
             <span className="text-lg font-medium">BUY FROM STORE</span>
           </Link>
         </div>
