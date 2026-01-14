@@ -61,22 +61,6 @@ export default function Home() {
       buttonLink: "/ceiling-fans/airoelevate",
       features: null,
     },{
-      desktopBg: "/home/sliders/desktop/04.png",
-      mobileBg: "/home/sliders/mobile/04.png?v=4",
-      subheading: "",
-      heading: "",
-      buttonText: "",
-      buttonLink: "/ceiling-fans/airojewel",
-      features: null,
-    },{
-      desktopBg: "/home/sliders/desktop/03.png",
-      mobileBg: "/home/sliders/mobile/03.png?v=1",
-      subheading: "",
-      heading: "",
-      buttonText: "",
-      buttonLink: "/ceiling-fans/airogeometry",
-      features: null,
-    },{
       desktopBg: "/home/sliders/desktop/4.png?v=1",
       mobileBg: "/home/sliders/mobile/01.png?v=1",
       subheading: "",
@@ -86,6 +70,28 @@ export default function Home() {
       features: null,
     }
   ];
+
+
+
+  // {
+  //   desktopBg: "/home/sliders/desktop/04.png",
+  //   mobileBg: "/home/sliders/mobile/04.png?v=4",
+  //   subheading: "",
+  //   heading: "",
+  //   buttonText: "",
+  //   buttonLink: "/ceiling-fans/airojewel",
+  //   features: null,
+  // },{
+  //   desktopBg: "/home/sliders/desktop/03.png",
+  //   mobileBg: "/home/sliders/mobile/03.png?v=1",
+  //   subheading: "",
+  //   heading: "",
+  //   buttonText: "",
+  //   buttonLink: "/ceiling-fans/airogeometry",
+  //   features: null,
+  // },
+
+
 
   const productFeatures = [
     {
