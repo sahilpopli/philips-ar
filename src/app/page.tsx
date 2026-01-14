@@ -65,15 +65,33 @@ export default function Home() {
     },
     {
       desktopBg: "/home/sliders/desktop/1.png?v=2",
-      mobileBg: "/home/sliders/mobile/02.png?v=1",
+      mobileBg: "/home/sliders/mobile/004.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",
       buttonLink: "/ceiling-fans/airoelevate",
       features: null,
-    },{
+    },
+    {
+    desktopBg: "/home/sliders/desktop/04.png",
+    mobileBg: "/home/sliders/mobile/003.png?v=4",
+    subheading: "",
+    heading: "",
+    buttonText: "",
+    buttonLink: "/ceiling-fans/airojewel",
+    features: null,
+  },{
+    desktopBg: "/home/sliders/desktop/03.png",
+    mobileBg: "/home/sliders/mobile/005.png?v=1",
+    subheading: "",
+    heading: "",
+    buttonText: "",
+    buttonLink: "/ceiling-fans/airogeometry",
+    features: null,
+  },
+    {
       desktopBg: "/home/sliders/desktop/4.png?v=1",
-      mobileBg: "/home/sliders/mobile/01.png?v=1",
+      mobileBg: "/home/sliders/mobile/002.png?v=1",
       subheading: "",
       heading: "",
       buttonText: "",
@@ -84,23 +102,8 @@ export default function Home() {
 
 
 
-  // {
-  //   desktopBg: "/home/sliders/desktop/04.png",
-  //   mobileBg: "/home/sliders/mobile/04.png?v=4",
-  //   subheading: "",
-  //   heading: "",
-  //   buttonText: "",
-  //   buttonLink: "/ceiling-fans/airojewel",
-  //   features: null,
-  // },{
-  //   desktopBg: "/home/sliders/desktop/03.png",
-  //   mobileBg: "/home/sliders/mobile/03.png?v=1",
-  //   subheading: "",
-  //   heading: "",
-  //   buttonText: "",
-  //   buttonLink: "/ceiling-fans/airogeometry",
-  //   features: null,
-  // },
+  
+
 
 
 
